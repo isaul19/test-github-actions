@@ -20,7 +20,7 @@ export const App = () => {
             element={
               <>
                 <h1>Test page</h1>
-                <Link to="/test">Ir a index</Link>
+                <Link to="/">Ir a index</Link>
               </>
             }
           />
