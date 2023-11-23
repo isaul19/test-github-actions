@@ -3,7 +3,7 @@ import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
 export const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="test-github-actions/">
         <Routes>
           <Route
             path="/"
